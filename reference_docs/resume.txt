@@ -1,0 +1,76 @@
+•   DockerIntroduced CI/CD concepts and containerization basics (  
+platforms, broadening exposure to emerging architectures.  
+•   Implemented blockchain concepts including smart contracts and decentralized applications into demo 
+development,Delivered technical sessions on   
+•   AI integration, LLM APIs, blockchain (Smart Contracts, Web3), and security -first 
+deployment best practices —  simulating a lead developer role.  
+•   Mentored 50+ students and project teams on full -stack development, Git/GitHub version control, and 
+•   cloud deployment pipelines (AWS, GCP) Integrated AI/ML features and   
+using  
+•   Python (Flask), HTML, CSS, MySQL, and MongoDB, Designed and deployed end-to-end web applications 
+Jun 2023 – Jul 2025  •  Hyderabad 
+Makeskilled  |  IoT Developer & Technical Trainer  
+•   AWS cloud servicesLeveraged  
+implementations. 
+•   Collaborated with cross-functional teams to translate business requirements into scalable technical 
+planning. 
+•   Participated in code reviews, production support cycles, and feature delivery aligned with agile sprint 
+enterprise modules. 
+•   Implemented component-based UI architecture in React.js with reusable, maintainable code across multiple 
+•   MySQLDesigned and optimized relational database schemas in   
+communication with optimized response handling.  
+•   Built and integrated REST APIs for enterprise applications, enabling seamless frontend -backend 
+using  
+•   React.js, Java Spring Boot, and Microservices, Developed and maintained scalable full -stack features 
+Aug 2025 – Present  •  Hyderabad 
+M. R. Soft Solutions  |  Junior Software Engineer 
+WORK EXPERIENCE 
+Emerging Tech: Blockchain (Smart Contracts, Web3), Prompt Engineering, LLM API integration  
+Tools & Platforms: Jira, GitHub, Postman, VS Code, IntelliJ IDEA  
+Architecture & Patterns: Microservices, REST APIs, MVC, Event -driven patterns, Role-Based Access Control 
+Databases: MySQL, MongoDB, SQLite —  query optimization, schema design  
+tools 
+AI / ML: AI Integration (REST-based LLM APIs), OpenCV, Computer Vision, Deep Learning concepts, GenAI 
+Cloud & DevOps: AWS (EC2, S3, IoT Core), GCP, Docker (basic), GitHub Actions (CI/CD), Git  
+Frameworks & Libraries: Spring Boot, React.js, Flask, Node.js, Tailwind CSS, Bootstrap, Thymeleaf  
+Languages: Java, Python, JavaScript, TypeScript, HTML5, CSS3, SQL  
+ 
+TECHNICAL SKILLS 
+clean code practices, and continuous learning in multi -cloud and DevOps environments.  
+deliver end-to-end solutions across frontend, backend, and deployment. Passionate about adopting GenAI tools, 
+with cloud platforms (AWS, GCP), database design (MySQL, MongoDB), and AI integ ration. Proven ability to 
+Java Spring Boot, React.js, Python (Flask), REST APIs, and Microservices architecture. Hands -on experience 
+Results-driven Full Stack Developer with 3+ years of experience building scalable enterprise applications using 
+PROFESSIONAL SUMMARY 
+linkedin.com/in/sudheer-thadikonda   •   github.com/sudheer1360 
+sudheerthadikonda0605@gmail.com  •  +91 7995393151  •  Hyderabad, Telangana 
+Full Stack Developer  |  Java · React · Python · Cloud & AI Integration 
+ 
+THADIKONDA SUDHEER
+----------------Page (0) Break----------------
+AWS Academy Cloud Foundations   —   Amazon Web Services 
+Architecting with Google Compute Engine  —   Google Cloud / Coursera  
+CERTIFICATIONS 
+2019 – 2023  •  CGPA: 6.79 
+B.Tech in Computer Science & Engineering  —   Chalapathi Institute of Engineering & Technology, Guntur  
+EDUCATION 
+UI, search/filter, and email alerts —  deployed with environment-based configuration. 
+•   Built a full-stack marketplace connecting farmers to rent/sell agricultural tools with secure auth, responsive 
+Python · Flask · SQLite · Bootstrap · JavaScript · Flask-Mail 
+Farm Tools Rental & Marketplace 
+backend. 
+•   Structured using MVC architecture with layered controllers, services, and repository layers over a MySQL 
+application workflows, and automated email notifications via JavaMail.  
+•   Developed a dynamic, role-based news portal with user/employee/admin dashboards, news publishing, job 
+Java · Spring Boot · MySQL · Thymeleaf · Bootstrap · JavaMail · MVC Architecture 
+News Portal Web Application 
+frontend. 
+•   Delivered responsive, reusable UI components with React + TypeScript for scalable enterprise -grade 
+management via Zustand and TanStack Query.  
+•   Integrated REST APIs using a modular frontend service architecture with efficient client/server state 
+supporting 10+ core modules including POS, kitchen ops, billing, and audit logs.  
+•   Built a multi-role admin platform (Super Admin, Vendor, Waiter, Chef) with role -based access control 
+React.js · TypeScript · Vite · Tailwind CSS · Zustand · TanStack Query · REST APIs 
+FYNDYNE Admin —  Restaurant Management Platform 
+KEY PROJECTS 
+----------------Page (1) Break----------------
