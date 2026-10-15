@@ -6,19 +6,26 @@ import { profileData } from '../data/mockData';
 
 const { TextArea } = Input;
 
+interface ContactFormValues {
+  name: string;
+  email: string;
+  subject: string;
+  message: string;
+}
+
 export const Contact: React.FC = () => {
   const [form] = Form.useForm();
   const [loading, setLoading] = useState(false);
 
-  const onFinish = (values: any) => {
+  const onFinish = (values: ContactFormValues) => {
     setLoading(true);
-    // Simulate API call
-    setTimeout(() => {
-      console.log('Received values of form: ', values);
-      message.success('Your message has been sent successfully! I will get back to you soon.');
-      form.resetFields();
-      setLoading(false);
-    }, 1500);
+    // No backend yet: open the visitor's mail client with the message pre-filled.
+    const subject = encodeURIComponent(values.subject);
+    const body = encodeURIComponent(`${values.message}\n\n— ${values.name} (${values.email})`);
+    window.location.href = `mailto:${profileData.email}?subject=${subject}&body=${body}`;
+    message.info('Opening your email app to send the message.');
+    form.resetFields();
+    setLoading(false);
   };
 
   return (
