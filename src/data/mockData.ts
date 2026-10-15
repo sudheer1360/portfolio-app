@@ -105,20 +105,18 @@ export const projectsData: ProjectItem[] = [
     title: 'FYNDYNE Admin — Restaurant Management Platform',
     description: 'Built a multi-role admin platform (Super Admin, Vendor, Waiter, Chef) with role-based access control supporting 10+ core modules including POS, kitchen ops, billing, and audit logs. Integrated REST APIs using a modular frontend service architecture with efficient client/server state management via Zustand and TanStack Query.',
     techStack: ['React.js', 'TypeScript', 'Vite', 'Tailwind CSS', 'Zustand', 'TanStack Query', 'REST APIs'],
-    githubUrl: 'https://github.com/sudheer1360',
   },
   {
     id: 'proj2',
     title: 'News Portal Web Application',
     description: 'Developed a dynamic, role-based news portal with user/employee/admin dashboards, news publishing, job application workflows, and automated email notifications via JavaMail. Structured using MVC architecture with layered controllers, services, and repository layers over a MySQL backend.',
     techStack: ['Java', 'Spring Boot', 'MySQL', 'Thymeleaf', 'Bootstrap', 'JavaMail', 'MVC Architecture'],
-    githubUrl: 'https://github.com/sudheer1360',
+    githubUrl: 'https://github.com/sudheer1360/newsportal',
   },
   {
     id: 'proj3',
     title: 'Farm Tools Rental & Marketplace',
     description: 'Built a full-stack marketplace connecting farmers to rent/sell agricultural tools with secure auth, responsive UI, search/filter, and email alerts — deployed with environment-based configuration.',
     techStack: ['Python', 'Flask', 'SQLite', 'Bootstrap', 'JavaScript', 'Flask-Mail'],
-    githubUrl: 'https://github.com/sudheer1360',
   },
 ];

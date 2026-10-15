@@ -6,15 +6,15 @@ import { LaptopOutlined } from '@ant-design/icons';
 
 export const Experience: React.FC = () => {
   const timelineItems = experienceData.map((exp, index) => ({
-    dot: <div className="w-8 h-8 rounded-full bg-gray-50 dark:bg-[var(--bg-base)] border border-brand-primary flex items-center justify-center text-brand-primary shadow-[0_0_10px_rgba(24,144,255,0.2)]">
+    dot: <div className="w-8 h-8 rounded-full bg-[var(--bg-base)] border border-brand-primary flex items-center justify-center text-brand-primary shadow-[0_0_10px_rgba(24,144,255,0.2)]">
            <LaptopOutlined />
          </div>,
     children: (
       <div className={`mb-10 pl-6 ${index !== experienceData.length - 1 ? 'pb-8' : ''}`}>
         <div className="flex flex-col md:flex-row md:items-center justify-between mb-4">
           <div>
-            <h3 className="text-xl font-bold text-gray-900 dark:text-[var(--text-primary)] mb-1">{exp.role}</h3>
-            <h4 className="text-lg text-[var(--text-secondary)] dark:text-[var(--text-muted)] dark:text-[var(--text-secondary)] font-medium">{exp.company}</h4>
+            <h3 className="text-xl font-bold text-[var(--text-primary)] mb-1">{exp.role}</h3>
+            <h4 className="text-lg text-[var(--text-secondary)] font-medium">{exp.company}</h4>
           </div>
           <div className="mt-2 md:mt-0">
             <Tag color="#1890ff" className="bg-brand-primary/10 text-brand-primary border-brand-primary/20 px-3 py-1 rounded-full text-sm">
@@ -23,7 +23,7 @@ export const Experience: React.FC = () => {
           </div>
         </div>
         
-        <ul className="list-disc list-inside text-gray-600 dark:text-[var(--text-secondary)] space-y-2 mb-6 ml-2">
+        <ul className="list-disc list-inside text-[var(--text-secondary)] space-y-2 mb-6 ml-2">
           {exp.contributions.map((point, i) => (
             <li key={i} className="leading-relaxed">{point}</li>
           ))}
@@ -31,7 +31,7 @@ export const Experience: React.FC = () => {
         
         <div className="flex flex-wrap gap-2 mt-4 custom-scrollbar">
           {exp.techStack.map((tech, i) => (
-            <Tag key={i} className="bg-white dark:bg-[var(--bg-card)] border-gray-200 dark:border-[var(--border-subtle)] text-[var(--text-secondary)] dark:text-[var(--text-muted)] dark:text-[var(--text-secondary)] rounded-md px-2 py-1 m-0">
+            <Tag key={i} className="bg-[var(--bg-card)] border-[var(--border-subtle)] text-[var(--text-secondary)] rounded-md px-2 py-1 m-0">
               {tech}
             </Tag>
           ))}

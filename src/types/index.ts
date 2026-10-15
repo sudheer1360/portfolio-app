@@ -33,7 +33,7 @@ export interface ProjectItem {
   title: string;
   description: string;
   techStack: string[];
-  githubUrl: string;
+  githubUrl?: string;
   liveUrl?: string;
   imageUrl?: string;
 }
