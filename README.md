@@ -6,10 +6,10 @@ This project focuses on clean architecture, reusability, strict type-safety, and
 
 ## 🚀 Tech Stack
 
-- **Framework**: [React 18](https://reactjs.org/) setup via [Vite](https://vitejs.dev/) for ultra-fast builds and HMR.
+- **Framework**: [React 19](https://react.dev/) setup via [Vite](https://vitejs.dev/) for ultra-fast builds and HMR.
 - **Language**: [TypeScript](https://www.typescriptlang.org/) for robust, strict-typing confidence.
 - **Styling**: [Tailwind CSS v4](https://tailwindcss.com/) mapped safely with global CSS variable injections for dynamic theming.
-- **Component UI**: [Ant Design](https://ant.design/) components dynamically responding to light/dark system settings.
+- **Component UI**: [Ant Design 6](https://ant.design/) components dynamically responding to light/dark system settings.
 - **Animations**: [Framer Motion](https://www.framer.com/motion/) for fluid entrance reveals and micro-interactions.
 - **Icons**: Lucide React & `@ant-design/icons`.
 
@@ -20,6 +20,7 @@ This project focuses on clean architecture, reusability, strict type-safety, and
 - **Data Encapsulation**: A dedicated layout relying strictly on data mapping from `src/data/mockData.ts`, emulating REST API responses.
 - **Experience Timeline**: Vertical chronological map of your professional architecture and deployments.
 - **Filterable Showcase**: Portfolio grid featuring categorized tech stacks with active filtering support.
+- **Contact**: Form opens the visitor's email app with the message pre-filled (no backend required).
 - **Native PDF Distribution**: Integrated static resume routing granting native previewing or immediate physical downloads.
 
 ## 📁 Architecture & Structure
@@ -28,7 +29,7 @@ This project focuses on clean architecture, reusability, strict type-safety, and
 portfolio-app/
 ├── public/                 # Static assets (Resume PDF, etc.)
 ├── reference_docs/         # Data extraction sources / Old PDFs
-├── scripts/                # Architecture migration scripts
+├── scripts/                # One-off migration/extraction scripts (dev only)
 ├── src/
 │   ├── components/         # Reusable structural components (SectionWrappers)
 │   ├── context/            # Global React Contexts (ThemeContext)

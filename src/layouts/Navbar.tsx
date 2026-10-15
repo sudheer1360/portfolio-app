@@ -4,7 +4,7 @@ import { Button } from 'antd';
 import { MenuOutlined, CloseOutlined, GithubOutlined, LinkedinOutlined, MailOutlined } from '@ant-design/icons';
 import { Moon, Sun } from 'lucide-react';
 import { profileData } from '../data/mockData';
-import { useTheme } from '../context/ThemeContext';
+import { useTheme } from '../context/themeContextValue';
 
 const NAV_ITEMS = [
   { label: 'About', id: 'about' },

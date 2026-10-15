@@ -6,7 +6,8 @@ import { Experience } from './sections/Experience';
 import { Projects } from './sections/Projects';
 import { Resume } from './sections/Resume';
 import { Contact } from './sections/Contact';
-import { ThemeProvider, useTheme } from './context/ThemeContext';
+import { ThemeProvider } from './context/ThemeContext';
+import { useTheme } from './context/themeContextValue';
 import { ConfigProvider, theme as antdTheme } from 'antd';
 
 const AppContent = () => {
